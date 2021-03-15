@@ -1,4 +1,13 @@
-#header {
+html,body{
+    height:90vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
 }
@@ -6,5 +15,11 @@
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
